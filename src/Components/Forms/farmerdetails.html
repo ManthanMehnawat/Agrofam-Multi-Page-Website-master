@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Agrofam</title>
+        <link rel="stylesheet" href="farmerdetails.css">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    </head>
+<body>
+    <div class="farmer-container">
+        <div class="container">
+            <div class="title">Farmer Details<br><br>
+            <h6>* Required</h6></div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Name (नाम) *</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address (पता) *</span>
+                        <input type="text" placeholder="Enter your address" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number *</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Farmer Location (खेत का स्थान) *</span>
+                        <input type="text" placeholder="Enter location" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">LAND AREA (आपके पास भूमि क्षेत्र) *</span>
+                        <input type="text" placeholder="Enter area" required>
+                    </div>
+                    
+                    <!-- <div class="crop">
+                        <span class="crop-title">Type of crop<br></span>
+                        <input type="radio" id="html" name="crop" value="organic">
+                        <label for="organic">Organic</label><br>
+                        <input type="radio" id="traditional" name="crop" value="traditional">
+                        <label for="traditional">Traditional</label><br>
+                        <input type="radio" id="natural" name="crop" value="natural">
+                        <label for="natural">Natural</label>
+    
+                    </div> -->
+                </div>
+                <!-- <div class="button">
+                    <input type="submit" value="Submit">
+                </div> -->
+                <div class="cat">
+                    <span class="cat-title">Select Categories *<br></span>
+                    <input type="checkbox" id="cat1" name="cat1" value="vegetables">
+                    <label for="cat1">Vegetables</label><br>
+                    <input type="checkbox" id="cat2" name="cat2" value="fruits">
+                    <label for="cat2">Fruits</label><br>
+                    <input type="checkbox" id="cat3" name="cat3" value="pulses">
+                    <label for="cat3">Pulses</label><br>
+                    <input type="checkbox" id="cat4" name="cat4" value="grains">
+                    <label for="cat4">Grains</label><br>
+                    <input type="checkbox" id="cat5" name="cat5" value="flowers">
+                    <label for="cat5">Flowers</label><br>
+                    <input type="checkbox" id="cat6" name="cat6" value="others">
+                    <label for="cat6">Others</label><br>
+                    <div class="input-box-cat">
+                        <span class="cat-details">Please specify other categories<br>
+                            <h6>example - honey, jaggery, herbs उदाहरण - शहद, गुड़, जड़ी-बूटियाँ</h6></span>
+                        <input type="text" placeholder="Your answer" >
+                    </div>
+                </div>
+                <div class="crop-box">
+                    <div class="crop">
+                        <span class="crop-title">Type of crop *<br></span>
+                        <input type="radio" id="html" name="crop" value="organic">
+                        <label for="organic">Organic</label><br>
+                        <input type="radio" id="traditional" name="crop" value="traditional">
+                        <label for="traditional">Traditional</label><br>
+                        <input type="radio" id="natural" name="crop" value="natural">
+                        <label for="natural">Natural</label>
+    
+                    </div>
+                    <div class="input-box-crop">
+                        <span class="crop-details">Crop Name/Month/Est. Qty *<br>
+                            <h6>Example - Tomato/Jan-Feb/500 ton ,  Potato/Jan-Mar, Sep-Dec/ 1000 ton  फसल का नाम/माह/स्था। मात्रा</h6>
+                            </span>
+                        <input type="text" placeholder="Your answer" required>
+                    </div>
+                </div>
+                <div class="anthr-box">
+                    <div class="anthr-input-box">
+                        <span class="anthr-details">Selling Price Min to Max<br>
+                           <h6>Example Tomato/5-10/per kg</h6></span>
+                        <input type="text" placeholder="Enter Selling Price" >
+                    </div>
+                    <div class="anthr-input-box">
+                        <span class="anthr-details">Estimated Yield *<br>
+                            <h6>अनुमानित उपज</h6> </span>
+                        <input type="text" placeholder="Enter Yield" required>
+                    </div>
+                </div>
+                <div class="anth-input-box">
+                    <span class="anth-details">How the farmer is selling product so far? *<br>
+                        <h6>आप अब तक उत्पाद कैसे बेच रहे हैं?</h6> </span>
+                    <input type="text" placeholder="Your answer" required>
+                </div>
+                <div class="sur">
+                    <span class="sur-title">Question for surveyor *<br></span>
+                    <input type="checkbox" id="sur1" name="sur1" value="have you taken all details">
+                    <label for="sur1">Have you taken all details</label><br>
+                    <input type="checkbox" id="sur2" name="sur2" value="have you taken image of farmer">
+                    <label for="sur2">Have you taken image of farmer</label><br>
+                    <input type="checkbox" id="sur3" name="sur3" value="have you taken image of field">
+                    <label for="sur3">Have you taken image of field</label><br>
+                    <input type="checkbox" id="sur4" name="sur4" value="have you renamed the image files to link with form">
+                    <label for="sur4">Have you renamed the image files to link with form</label><br>
+                </div>
+                <div class="otp">
+                    <div class="otp-input-box">
+                        <span class="otp-details">Name (नाम) *</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="otp-input-box">
+                        <span class="otp-details">Phone number *</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+                    <div class="btn2">
+                        <button type="submit" class="fas">Submit(Send OTP)</i></button>
+                    </div>
+                </div>
+                <div class="otp2-input-box">
+                    <span class="otp2-details">Confirm OTP *</span>
+                    <input type="text" placeholder="Enter OTP" required>
+                </div>
+                <div class="btn3">
+                    <button type="submit" class="fas">Verify</i></button>
+                </div>
+                <script>
+                    document.querySelector('.btn2').addEventListener('click',()=>{
+                        document.querySelector('.btn3').classList.toggle('show');
+                    });
+                </script>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

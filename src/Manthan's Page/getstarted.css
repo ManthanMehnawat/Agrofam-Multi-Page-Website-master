@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.content-box{
+    background: linear-gradient(to right,#d8ecc1,#7aae7d);
+    height: auto;
+    color: black;
+    padding-right: 15px;
+}
+.getstarted .head p{
+  text-align: justify;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: justify;
+}
+h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+    font-family:'Textile';
+}
+h1::after{
+    content: '';
+    background: #ad1e1e;
+    display: block;
+    height: 5px;
+    width: 200px;
+    margin: 20px auto 50px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    padding: 100px;
+    
+}
+.getstarted p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family:'Bookman old style';
+}
+.getstarted .col{
+  display: flex;
+}
+.getstarted .col-md-3{
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    width: 50%;
+    height: 20vh;
+    border: #000000 solid 3px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.getstarted .col-md-3 p{
+    text-align: justify;
+    font-size: 17px;
+    font-family:'Bookman old style';
+}
+.getstarted .col-md-3 h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: "FestivoLettersNo19";
+}
+.getstarted .col-md-4{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 50%;
+    border: #000000 solid 3px;
+    border-radius: 7px;
+    height: 20vh;
+}
+.getstarted .col-md-4 p{
+    text-align: justify;
+    font-size: 17px;
+    font-family:'Bookman old style';
+}
+.getstarted .col-md-4 h3{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: "FestivoLettersNo19";
+}
+.button {
+    border: none;
+    color: rgb(45, 124, 24);
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "ProximaNova";
+  }
+  
+  .button1 {
+    background-color: rgb(255, 255, 255);
+    color: #2d9718;
+    border: 2px solid #2d9718;
+    width: 250px;
+    height: 60px;
+  }
+  
+  .button1:hover {
+    background-color: #2d9718;
+    color: rgb(255, 255, 255);
+  }
+  
+  .button2 {
+    background-color: rgb(255, 255, 255);
+    color: #2d9718;
+    border: 2px solid #2d9718;
+    margin-left: 20px;
+    width: 250px;
+    height: 60px;
+  }
+  
+  .button2:hover {
+    background-color: #2d9718;
+    color: rgb(255, 255, 255);
+  }
+  
+  .button3 {
+    background-color: rgb(255, 255, 255);
+    color: #2d9718;
+    border: 2px solid #2d9718;
+    margin-left: 230px;
+    width: 250px;
+    height: 60px;
+  }
+  
+  .button3:hover {
+    background-color: #2d9718;
+    color: rgb(255, 255, 255);
+  }
+  
+  .button4{
+    background-color: rgb(255, 255, 255);
+    color: #2d9718;
+    border: 2px solid #2d9718;
+    margin-left: 20px;
+    width: 250px;
+    height: 60px;
+  }
+  
+  .button4:hover {
+    background-color: #2d9718;
+    color: rgb(255, 255, 255);
+  }
+  @media screen and (max-width:786px) {
+ .getstarted .container p{
+     font-size: 5px;
+ }
+  }

@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.TopDiv{
+    display: flex;
+    min-height: 151vh;
+    background: white;
+}
+.container{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container h4{
+    margin-top: 50px;
+    margin-left: 38%;
+    color: rgb(29, 137, 35);
+}
+.container p{
+    margin-top: 30px;
+    margin-left: 200px;
+    justify-content: center;
+}
+.container img{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}

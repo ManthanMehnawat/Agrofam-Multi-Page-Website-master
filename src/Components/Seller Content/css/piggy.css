@@ -1,0 +1,124 @@
+body
+{
+	background: white;
+}
+.Seller-container
+{
+	width: 100%;
+	height: auto;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.box
+{
+	width: 30%;
+	height: 250px;
+	background: transparent;
+	margin: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+}
+.btn
+{
+	text-align: center;
+	background-color:#1a794b;
+	color: white;
+	width: 15%;
+	height: 50px;
+	border-radius: 2px;
+	border-color: #008304;
+	align-items: center;
+}
+.btn:hover
+{
+	background-color:  #008379 ;
+	color: white;
+	border-color:#008379 ;
+}
+.center
+{
+	text-align: center;
+}
+.container1
+{
+	width: 100%;
+	height: 400px;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.box1
+{
+	width: 18%;
+	height: 250px;
+	background: transparent;
+	margin: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+}
+span
+{
+	color: #1a794b;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.center
+{
+	text-align: center;
+	align-items: center;
+}
+.gray
+{
+	color: gray;
+	font-size: 18px;
+}
+.greenkyari
+{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #1a794b;
+
+}
+.a
+{
+	font-size: 32px;
+	color: white;
+	padding-top: 30px;
+	font-family: sans-serif;
+}
+.b
+{
+	color: white;
+	font-size: 20px;
+}
+.empty
+{
+	background:#1a794b ;
+	height: 280px;
+	text-align: center;
+}
+.gry
+{
+	color: gray;
+}
+p
+{
+	font-size: 16px;
+}
+.image
+{
+	width: 90%;
+}
+.btn
+{
+	margin-top: 40px;
+}

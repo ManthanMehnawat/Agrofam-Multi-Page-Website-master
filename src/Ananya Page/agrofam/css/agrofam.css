@@ -1,0 +1,64 @@
+.container
+{
+	width: 100%;
+	height: auto;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.box
+{
+	width: 30%;
+	height: 250px;
+	background: transparent;
+	margin: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+}
+.btn
+{
+	text-align: center;
+	background-color:  #008304 ;
+	color: white;
+	width: 20%;
+	height: 40px;
+	border-radius: 7px;
+	border: 30px solid #008304;
+	align-items: center;
+}
+.btn:hover
+{
+	background-color:  #008379 ;
+	color: white;
+	border-color:#008379 ;
+	cursor: pointer;
+}
+.center
+{
+	text-align: center;
+}
+.container1
+{
+	width: 100%;
+	height: auto;
+	background: transparent;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.box1
+{
+	width: 18%;
+	height: 250px;
+	background: transparent;
+	margin: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+}
